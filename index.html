@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mental Health Support</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav>
+    <div class="logo">MentalHealth</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#ai-advice">AI Advice</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="hero">
+    <h1>You Are Not Alone</h1>
+    <p>If you're feeling stressed or overwhelmed, remember that help is available. Take a deep breath and reach out.</p>
+    <button onclick="scrollToSection('ai-advice')">Get Free AI Advice</button>
+  </section>
+
+  <!-- About Section -->
+<section id="about" class="content">
+    <h2>About Mental Health</h2>
+    <p>Mental health is an essential part of our overall well-being. It affects how we think, feel, and act in our daily lives. Just like physical health, mental health is something we all need to take care of, and it’s okay to ask for help when we need it.</p>
+  
+    <div class="about-grid">
+      <!-- Image 1 -->
+      <div class="about-item">
+        <img src="images\logo.jpg" alt="Mental Health Awareness">
+        <p><strong>What Is Mental Health?</strong><br>Mental health includes our emotional, psychological, and social well-being. It influences how we handle stress, relate to others, and make choices.</p>
+      </div>
+  
+      <!-- Image 2 -->
+      <div class="about-item">
+        <img src="images\brain.jpg" alt="Common Mental Health Challenges">
+        <p><strong>Common Mental Health Challenges</strong><br>Many people experience stress, anxiety, depression, or burnout. These feelings are normal, and you’re not alone.</p>
+      </div>
+  
+      <!-- Image 3 -->
+      <div class="about-item">
+        <img src="images\toy.jpg" alt="You Are Not Alone">
+        <p><strong>You Are Not Alone</strong><br>Millions of people face mental health challenges every day. Reaching out for help is a sign of strength.</p>
+      </div>
+      
+    </div>
+  
+   
+  </section>
+
+  <section id="help" class="content">
+    <h2><strong>How We Can Help?</strong></h2>
+    <p>Our mission is to provide a safe and supportive space for anyone struggling with mental health challenges. Through our free AI-powered advice tool, you can get immediate, confidential support whenever you need it.</p>
+  </section>
+
+  <!-- AI Advice Section -->
+<section id="ai-advice" class="content">
+    <h2>Free AI Advice</h2>
+    <p>Our AI-powered mental health assistant is here to help you 24/7. It provides free, confidential advice to help you manage stress, anxiety, and other mental health challenges.</p>
+    <div class="chat-box">
+      <input type="text" id="user-input" placeholder="Type your question or concern...">
+      <button onclick="getAIResponse()">Submit</button>
+    </div>
+    <!-- AI Response Container -->
+    <div id="ai-response-container">
+      <div id="ai-response"></div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="content">
+    <h2>Contact Us</h2>
+    <p>If you need further assistance, feel free to reach out to us at <a href="mailto:support@mentalhealth.com">support@mentalhealth.com</a>.</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
