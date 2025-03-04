@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9;
+    background-color: #FAF3E0;
     color: #333;
   }
   
@@ -12,7 +12,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #4a90e2;
+    background-color: #654321;
     padding: 10px 20px;
     color: white;
   }
@@ -20,6 +20,7 @@ body {
   nav .logo {
     font-size: 24px;
     font-weight: bold;
+    font-family: cursive;
   }
   
   nav .nav-links {
@@ -43,7 +44,7 @@ body {
     text-align: center;
     padding: 100px 20px;
     background-image: url("https://cdn.pixabay.com/photo/2020/06/14/22/46/the-caucasus-5299607_1280.jpg");
-    color: white;
+    color:white;
     background-size: cover;
   }
   
@@ -136,7 +137,7 @@ body {
     color: #333;
     position: relative;
     padding: 15px;
-    background-color: #4a90e2;
+    background-color: #654321;
     color: white;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -150,7 +151,7 @@ body {
     left: 20px;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
-    border-bottom: 10px solid #4a90e2;
+    border-bottom: 10px solid #654321;
   }
   
   /* Chat Box Styling */
@@ -172,7 +173,7 @@ body {
   .chat-box button {
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #4a90e2;
+    background-color: #654321;
     color: white;
     border: none;
     cursor: pointer;
@@ -180,13 +181,13 @@ body {
   }
   
   .chat-box button:hover {
-    background-color: #357abd;
+    background-color: #E2725B;
   }
   /* Footer */
   footer {
     text-align: center;
     padding: 20px;
-    background-color: #4a90e2;
+    background-color: #654321;
     color: white;
     margin-top: 50px;
   }
