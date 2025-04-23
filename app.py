@@ -27,11 +27,11 @@ def get_bot_response(user_input):
     user_input = user_input.lower()
     if "sad" in user_input or "depressed" in user_input:
         return "I'm sorry you're feeling this way. Want to talk about what's making you feel sad?"
-    elif "anxious" in user_input or "nervous" in user_input:
+    elif "anxious" in user_input or "stressed" in user_input:
         return "It’s okay to feel anxious. Try some deep breathing, and know that I'm here for you."
     elif "happy" in user_input or "good" in user_input:
         return "That's wonderful! Hold onto that feeling and spread the joy!"
-    elif "alone" in user_input or "lonely" in user_input:
+    elif "alone" in user_input or "lonely" in  user_input:
         return "You’re not alone. I'm here with you, and so are others who care."
     elif "help" in user_input or "support" in user_input:
         return "I'm here for you. You could also consider reaching out to a therapist or mental health professional."

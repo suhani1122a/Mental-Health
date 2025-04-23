@@ -43,7 +43,7 @@
       });
   
       const data = await res.json();
-      aiResponseDiv.innerHTML += `<div class="bot-msg">Bot (${data.sentiment}): ${data.response}</div>`;
+      aiResponseDiv.innerHTML += `<div class="bot-msg">${data.response}</div>`;
     } catch (err) {
       aiResponseDiv.innerHTML += `<div class="bot-msg">Error connecting to server. Is it running?</div>`;
     }
